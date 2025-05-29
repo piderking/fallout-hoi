@@ -1,0 +1,26 @@
+{
+	// Generate Snippets
+	"@new-snippet": {
+		"prefix": "snip",
+		"body": [
+			"\"$1\":{",
+			"\t\"scope\":\"${2:rust}\",",
+			"\t\"prefix\":\"${3:@}\",",
+			"\t\"body\":[",
+			"\t\t$0",
+			"\t]",
+			"},"
+		]
+	},
+	"@body-snippet-row":{
+		"prefix":"snip-r",
+		"body":[
+			"\"$0\","
+		]
+	},
+
+
+	
+	
+	
+}

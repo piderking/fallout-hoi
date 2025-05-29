@@ -1,0 +1,101 @@
+{
+    "hash": "cplzyevilk",
+    "parent_hash": "z3khpblhmh",
+    "title": "Math Coding",
+    "created": "2025-05-28T04:06:40.735Z",
+    "versionCreatedAt": "2025-05-28T04:06:40.735Z",
+    "stateUrl": "https://www.desmos.com/calc-states/production/cplzyevilk",
+    "thumbUrl": "https://www.desmos.com/calc_thumbs/production/cplzyevilk.png",
+    "currentVersion": "28a32ef0-3b79-11f0-835b-19fe015962ef",
+    "access": "link",
+    "product": "graphing",
+    "state": {
+        "version": 11,
+        "randomSeed": "a874ddf23177776d60eddbadde60d9e3",
+        "graph": {
+            "viewport": {
+                "xmin": -14.947181105110719,
+                "ymin": -11.55971986206272,
+                "xmax": 13.827043414618892,
+                "ymax": 14.452421924232935
+            },
+            "__v12ViewportLatexStash": {
+                "xmin": "-14.947181105110719",
+                "xmax": "13.827043414618892",
+                "ymin": "-11.55971986206272",
+                "ymax": "14.452421924232935"
+            }
+        },
+        "expressions": {
+            "list": [
+                {
+                    "type": "text",
+                    "id": "4",
+                    "text": "Constants"
+                },
+                {
+                    "type": "text",
+                    "id": "10",
+                    "text": "const c: i32 = 1;"
+                },
+                {
+                    "type": "expression",
+                    "id": "5",
+                    "color": "#6042a6",
+                    "latex": "c_{1}=1"
+                },
+                {
+                    "type": "text",
+                    "id": "6",
+                    "text": "Functions "
+                },
+                {
+                    "type": "text",
+                    "id": "11",
+                    "text": "fn add(v1) { v1 + 1 }"
+                },
+                {
+                    "type": "expression",
+                    "id": "7",
+                    "color": "#000000",
+                    "latex": "f_{1}\\left(x\\right)=x+1",
+                    "hidden": true
+                },
+                {
+                    "type": "text",
+                    "id": "13",
+                    "text": "Complex Functions"
+                },
+                {
+                    "type": "text",
+                    "id": "15",
+                    "text": "fn add(n1, n2) { n1 + n2}"
+                },
+                {
+                    "type": "expression",
+                    "id": "2",
+                    "color": "#2d70b3",
+                    "latex": "f_{2}\\left(x,y\\right)=x+y"
+                },
+                {
+                    "type": "text",
+                    "id": "17",
+                    "text": "Mutable Values (value of functions)"
+                },
+                {
+                    "type": "text",
+                    "id": "19",
+                    "text": "let t = add(t, 1)"
+                },
+                {
+                    "type": "expression",
+                    "id": "18",
+                    "color": "#c74440",
+                    "latex": "y_{1}=f_{2}\\left(x,1\\right)"
+                }
+            ]
+        },
+        "includeFunctionParametersInRandomSeed": true,
+        "doNotMigrateMovablePointStyle": true
+    }
+}
